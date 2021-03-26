@@ -41,7 +41,13 @@ Closure is a combination of functions nested within a lexical scope. Closure hap
 
 4. Describe the four rules of the 'this' keyword.
 
-Window Binding- 
+Window Binding - In strict mode it would return as undefined If the this keyword is in a function in the global scope, it would refer to the global object. If it is used outside of a function, in the global scope, this would refer to the window.
+
+Implicit binding - when invoking a function method this would refer to the object before the dot
+
+Explicit binding - this is defined when using .call, .bind or .apply
+
+New binding - this refers to the new object being created and returned by the constructor function
 
 5. Why do we need super() in an extended class?
 
