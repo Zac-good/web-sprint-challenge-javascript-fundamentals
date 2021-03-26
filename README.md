@@ -51,6 +51,8 @@ New binding - this refers to the new object being created and returned by the co
 
 5. Why do we need super() in an extended class?
 
+Super() takes the place of .create and .call in that it calls the parent's constructor method and gains access to it's properties and methods
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
