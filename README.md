@@ -29,11 +29,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+`.forEach` and `.map` are both array iterators that are used to execute provided functions on every element in an array. However, `.map` automatically creates a new array with the results of the given function. With `.forEach` the function needs to be told to push the results into a new array.
+
 2. Explain the difference between a callback and a higher order function.
+
+A callback is a function that is passed to other functions like a higher order function. Higher order functions are functions that take other functions as arguments 
 
 3. What is closure?
 
+Closure is a combination of functions nested within a lexical scope. Closure happens when a function is created within another function.  
+
 4. Describe the four rules of the 'this' keyword.
+
+Window Binding- 
 
 5. Why do we need super() in an extended class?
 
